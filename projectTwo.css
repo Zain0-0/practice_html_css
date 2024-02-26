@@ -1,0 +1,89 @@
+body{
+    margin:-20px ;
+}
+.container{
+    margin: 0px 0px 0px 0px;
+}
+.header,.intro,.footer{
+    background-color: rgb(170, 149, 189);
+    margin: 0px 0px 0px 0px;
+}
+.listOne{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    list-style-type: none;
+    margin-top: 20px;
+}
+.button{
+    height: 25px;
+    margin-top: 10px;
+    box-shadow: 2px 2px black;
+}
+.hrLine{
+    margin-top: 0px;
+    height: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+    border: 0px;
+}
+.intro{
+    margin: 0px;
+    padding-top: 100px;
+    text-align: center;
+    height: 300px;
+}
+.hello{
+    font-size: 3em;
+}
+.web_des{
+    font-size: larger;
+    font-weight: 500;
+}
+.my_work{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+.about_my_work{
+    width: 600px;
+    height: 400px;
+}
+#incredible{
+    text-align: center;
+    font-size: 2em;
+}
+.my_services{
+    display: flex;
+    justify-content: space-around;
+
+}
+.services{
+    border: 1px solid black;
+    box-shadow: 2px 2px black;
+    height: 300px;
+    width: 300px;
+}
+.services_logo,.services_info{
+    height: 140px; 
+    margin-left: 20px;
+}
+.services_logo{
+    display: flex;
+    align-items: end;
+}
+.services_info{
+    margin-bottom: 10px;
+}
+.followme_button{
+    background-color: blueviolet;
+}
